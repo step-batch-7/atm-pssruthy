@@ -19,3 +19,4 @@
   31999 0xf3412014
 */
 unsigned int get_money(unsigned short int);
+void print_notes(unsigned short int,unsigned int);

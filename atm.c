@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "atm.h"
 
 unsigned int get_money(unsigned short int money){
@@ -17,4 +18,8 @@ for(int index = 0;index < 8;index++ ){
 
 return notes;
 
+}
+
+void print_notes(unsigned short int amount,unsigned int notes){
+  printf("%5u %08x\n", amount, notes);
 }
